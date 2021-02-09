@@ -210,7 +210,7 @@ body {
     height: fit-content;
   }
   .header .navigation__menu .menu__item {
-    padding: 20px;
+    padding: 15px;
   }
   .header .navigation__menu .menu__item:hover > .line-through {
     display: none;
@@ -255,7 +255,7 @@ body {
 }
 @media screen and (max-width: 550px) {
   .header__description {
-    padding-top: 150px;
+    padding-top: 200px;
   }
   .header__shopping-button {
     padding: 20px 30px;

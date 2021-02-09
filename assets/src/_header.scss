@@ -212,7 +212,7 @@
         width: 20%;
         height: fit-content;
         .menu__item {
-          padding: 20px;
+          padding: 15px;
         }
 
         .menu__item:hover > .line-through {
@@ -269,7 +269,7 @@
 
   @media screen and (max-width: 550px) {
     &__description {
-      padding-top: 150px;
+      padding-top: 200px;
     }
 
     &__shopping-button {
