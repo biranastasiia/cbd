@@ -152,7 +152,7 @@
 
 @media screen and (max-width: 800px) {
   .products {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .products__item {
@@ -170,10 +170,20 @@
 
   .products__next-arrow {
     right: 40%;
+    bottom: -15%;
   }
 
   .products__prev-arrow {
     left: 40%;
+    bottom: -15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .products {
+    &__title {
+      font-size: 20px;
+    }
   }
 }
 

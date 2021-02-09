@@ -116,11 +116,20 @@
   }
 
   @media screen and (max-width: 850px) {
+    margin-top: 70px;
     background-position: right;
     .testimonial {
       &__box {
         width: 90%;
         margin: 180px auto;
+      }
+      &__descr {
+        font-size: 18px;
+        line-height: 35px;
+      }
+
+      &__sign {
+        font-size: 20px;
       }
     }
   }

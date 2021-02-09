@@ -52,7 +52,20 @@
     }
   }
 
+  @media screen and (max-width: 700px) {
+    margin-top: 200px;
+  }
+
   @media screen and (max-width: 650px) {
     width: 85%;
+    &__title {
+      font-size: 20px;
+    }
+
+    .question__box {
+      .question {
+        font-size: 15px;
+      }
+    }
   }
 }

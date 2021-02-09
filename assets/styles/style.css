@@ -385,6 +385,9 @@ body {
   }
 }
 @media screen and (max-width: 850px) {
+  .about {
+    margin-top: 50px;
+  }
   .about .logos__image {
     width: 80%;
   }
@@ -565,7 +568,7 @@ body {
 }
 @media screen and (max-width: 800px) {
   .products {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .products__item .price {
@@ -581,10 +584,17 @@ body {
 
   .products__next-arrow {
     right: 40%;
+    bottom: -15%;
   }
 
   .products__prev-arrow {
     left: 40%;
+    bottom: -15%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .products__title {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -642,9 +652,20 @@ body {
   color: #000000;
   padding: 50px 0px 50px 50px;
 }
+@media screen and (max-width: 700px) {
+  .questions {
+    margin-top: 200px;
+  }
+}
 @media screen and (max-width: 650px) {
   .questions {
     width: 85%;
+  }
+  .questions__title {
+    font-size: 20px;
+  }
+  .questions .question__box .question {
+    font-size: 15px;
   }
 }
 
@@ -756,11 +777,19 @@ body {
 }
 @media screen and (max-width: 850px) {
   .testimonials {
+    margin-top: 70px;
     background-position: right;
   }
   .testimonials .testimonial__box {
     width: 90%;
     margin: 180px auto;
+  }
+  .testimonials .testimonial__descr {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .testimonials .testimonial__sign {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -907,9 +936,15 @@ body {
   }
 }
 @media screen and (max-width: 850px) {
+  .footer {
+    margin-top: 70px;
+  }
   .footer__header .left-line,
 .footer__header .right-line {
     display: none;
+  }
+  .footer__header .title {
+    font-size: 40px;
   }
   .footer__vertical {
     display: none;

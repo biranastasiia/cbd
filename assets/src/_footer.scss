@@ -144,10 +144,14 @@
   }
 
   @media screen and (max-width: 850px) {
+    margin-top: 70px;
     &__header {
       .left-line,
       .right-line {
         display: none;
+      }
+      .title {
+        font-size: 40px;
       }
     }
 
