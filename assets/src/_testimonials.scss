@@ -1,0 +1,143 @@
+.testimonials {
+  margin-top: 150px;
+  background-image: url("../images/background_testimonials.png");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  &__slider {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(28, 32, 11, 0.6);
+  }
+
+  .testimonial {
+    height: 100vh;
+    outline: none;
+    border: none;
+    &__box {
+      width: 750px;
+      text-align: center;
+      margin: 270px auto;
+      .fa-star {
+        color: #aab384;
+      }
+    }
+    &__rate {
+      margin-bottom: 30px;
+    }
+    &__descr {
+      font-size: 22px;
+      line-height: 40px;
+      font-weight: 300;
+      letter-spacing: 0.2em;
+      color: #ffffff;
+      margin-bottom: 40px;
+    }
+    &__sign {
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #ffffff;
+    }
+
+    &__prev-arrow {
+      position: absolute;
+      left: 42%;
+      bottom: 0.5px;
+      border: 1px solid #f7f8f3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      cursor: pointer;
+      .prev-arrow {
+        padding: 40px 40px;
+        width: 40px;
+        height: 20px;
+      }
+    }
+
+    &__next-arrow {
+      position: absolute;
+      right: 42%;
+      bottom: 0.5px;
+      border: 1px solid #f7f8f3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      .next-arrow {
+        padding: 40px 40px;
+        width: 40px;
+        height: 20px;
+      }
+    }
+  }
+
+  .vertical {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    &__text {
+      font-size: 24px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.28em;
+      color: #f7f8f3;
+      writing-mode: vertical-rl;
+    }
+  }
+
+  @media screen and (max-width: 1410px) {
+    .testimonial {
+      &__prev-arrow {
+        left: 39%;
+      }
+
+      &__next-arrow {
+        right: 39%;
+      }
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .testimonial {
+      &__prev-arrow {
+        left: 5%;
+      }
+
+      &__next-arrow {
+        right: 5%;
+      }
+    }
+    .vertical {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    background-position: top;
+    .testimonial {
+      &__box {
+        width: 90%;
+        margin: 180px auto;
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .testimonial {
+      &__box {
+        margin: 60px auto;
+      }
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .testimonial {
+      &__box {
+        margin: 30px auto;
+      }
+    }
+  }
+}
