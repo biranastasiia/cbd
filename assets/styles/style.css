@@ -636,7 +636,7 @@ body {
   color: #6e774a;
   outline: none;
   cursor: pointer;
-  display: flex;
+  vertical-align: middle;
 }
 .questions .question__box summary::-webkit-details-marker {
   display: none;
