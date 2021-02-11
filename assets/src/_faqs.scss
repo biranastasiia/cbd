@@ -1,12 +1,13 @@
 .questions {
   width: 571px;
-  margin: 230px auto 0;
+  margin: 150px auto 0;
   &__title {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #1c1c1b;
+    padding-top: 80px;
     margin-bottom: 50px;
     text-align: center;
   }
@@ -49,8 +50,33 @@
       letter-spacing: 0.04em;
       color: #000000;
       padding: 50px 0px 50px 50px;
+      transition: 1s;
     }
   }
+    details {
+      transition: all 1s ease;
+      overflow: hidden;
+      }
+
+    details:not([open]){
+        height: 2em;
+    }
+
+    tr:first-child td details[open]{
+        height: 25em;
+    }
+
+     tr:nth-child(2) td details[open]{
+        height: 12em;
+    }
+
+    tr:nth-child(3) td details[open]{
+        height: 40em;
+    }
+
+    tr:last-child td details[open]{
+        height: 10em;
+    }
 
   @media screen and (max-width: 700px) {
     margin-top: 200px;
