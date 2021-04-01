@@ -24,6 +24,9 @@
   }
 
   .question__box {
+    summary.question{
+      display: block;
+    }
     .question {
       font-size: 18px;
       font-weight: 300;

@@ -48,7 +48,7 @@ $(document).ready(function () {
     $('body,html').animate({ scrollTop: top }, 1500);
     })
   
-  //переход к секции 'products' по button и see more products и переход к секции 'home' по стрелочке
+  //переход к секции 'products' по и see more products и переход к секции 'home' по стрелочке
     $(".header__description").on('click', 'a', function (event) {
       event.preventDefault();
       let id = $(this).attr('href'),

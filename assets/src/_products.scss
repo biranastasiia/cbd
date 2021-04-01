@@ -50,7 +50,7 @@
         font-weight: 400;
         text-transform: uppercase;
         color: #ffffff;
-        transition: 1s;
+        transition: 0.5s;
         span {
           display: inline-block;
           margin-left: 20px;
@@ -59,7 +59,8 @@
 
       &__shop-button:hover {
         cursor: pointer;
-        background-color: rgba(110, 119, 74, 0.8);
+        box-shadow: inset 0 0 15px $white-color;
+        //background-color: rgba(110, 119, 74, 0.8);
       }
     }
   }
